@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label id="nightLabel"
+      ><strong>Set Night Fee: </strong><input type="number" id="nightFee"
+    /></label>
+    <br /><br />
+    <div class="box">
+      <p class="heading">
+        <strong>$<span class="fee"></span>&nbsp;</strong>night
+      </p>
+      <form action="">
+        <div class="check">
+          <div id="check-in">
+            <label for="form-control">CHECK-IN</label>
+            <br />
+            <input
+              class="form-control"
+              id="Start"
+              type="date"
+              required
+              min="2023-04-29"
+              max="2030-12-31"
+            />
+          </div>
+          <div id="check-out">
+            <label for="form-control">CHECK-OUT</label>
+            <br />
+            <input class="form-control" id="End" type="date" required />
+          </div>
+        </div>
+      </form>
+      <div class="reserve-button">
+        <button class="reserve">Reserve</button>
+      </div>
+      <p id="afterButton"></p>
+      <div class="item">
+        <p class="period">
+          $<span class="fee"></span> &nbsp; x &nbsp;<span id="nights"></span
+          >&nbsp; nights
+        </p>
+        <p class="price" id="nightPrice">$</p>
+      </div>
+      <div class="item">
+        <p class="service">Service fee (10%)</p>
+        <p class="price" id="servicePrice">$</p>
+      </div>
+      <div class="item">
+        <p class="total">Total</p>
+        <p class="price" id="totalPrice">$</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

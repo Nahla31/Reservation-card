@@ -1,0 +1,86 @@
+.box {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.heading {
+  color: black;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.check {
+  display: flex;
+}
+
+#check-in,
+#check-out {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  width: 150px;
+  height: 50px;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.form-control {
+  border: none;
+  padding-top: 3px;
+}
+
+.reserve {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  /* background-color: #ff1a75; */
+  background-image: linear-gradient(to bottom right, #ff3385, #ff1a75);
+  border-radius: 10px;
+  border-color: #ff1a75;
+  font-weight: bolder;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.reserve-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+#afterButton {
+  display: flex;
+  justify-content: center;
+  color: #df2b2b;
+}
+
+.item,
+p {
+  display: flex;
+  color: #7a7a52;
+  margin-bottom: 2px;
+}
+
+.period,
+.service,
+.total {
+  width: 75%;
+}
+
+.price {
+  width: 25%;
+}
+
+#nightLabel {
+  font-size: 20px;
+}
+
+#nightFee {
+  border: 1px solid rgb(181, 176, 176);
+  border-radius: 6px;
+  padding: 2px;
+}
